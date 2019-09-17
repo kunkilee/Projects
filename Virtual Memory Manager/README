@@ -1,0 +1,29 @@
+Project 3 - Virtual-Memory Manager
+Group Members: Julia Brooks, Kun Ki Lee, Max Risdall
+
+Contributions:
+
+Kun Ki:
+ -Completed the entire first section of the project
+ -Outlined main
+ -Incorporated vmemory.c functions into main
+
+Julia:
+ -Complete the entire second section of the project
+ -Adjusted the FIFO TLB section of main to run correctly and optimally
+
+Max:
+ -Complete the entire extra credit section of the project
+ -Adjusted the LRU TLB section of main to run correctly and optimally
+
+Instructions:
+FIFO
+
+make
+./vmanager
+
+LRU
+
+make
+./vmanager -lru
+
