@@ -1,0 +1,26 @@
+calculon> def transum = 
+@trans
+  let help = @n
+    if n=0 
+    then 0
+    else (trans n) + (help (n-1))
+  in
+  help;
+transum : Closure(trans, <fun>)
+calculon> def double = @n n*2;
+double : Closure(n, <fun>)
+calculon> def incr   = @x x+1;
+incr : Closure(x, <fun>)
+calculon> transum double 10;
+- : IntDat(110)
+calculon> transum incr 20;
+- : IntDat(230)
+calculon> let fib = @n
+  if n=0 then 0
+  else if n=1 then 1
+  else (fib (n-1)) + (fib (n-2))
+in
+transum fib 8;
+- : IntDat(54)
+calculon> 
+That was so terrible I think you gave me cancer!

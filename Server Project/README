@@ -1,0 +1,32 @@
+Project 4 - Server-Client
+Group Members: Max Risdall, Kun Ki Lee, Julia Brooks
+
+Contributions:
+
+Kun Ki:
+ -Completed both Client1.c and Client2.c
+ -Completed README
+ -Completed Makefile
+
+Julia:
+ -Provided basic outline for client
+
+Max:
+ -Completed Server.c
+ -Provided guidance with Client1.c and Client2.c
+
+Instructions:
+
+Terminal 1:
+make
+./server.o
+
+Terminal 2:
+make
+./client1.o
+
+Terminal 3:
+make
+./client2.o						
+
+
